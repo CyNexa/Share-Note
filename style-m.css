@@ -1,0 +1,70 @@
+/* Header */
+.navbar {
+    height: 50px;
+    position: static;
+}
+
+.navbar h1 {
+    font-size: 20px;
+}
+
+/* Ham Menu */
+
+.navs, .btn {
+    display: none;
+}
+
+.toggle_btn {
+    display: block;
+}
+
+/* Footer */
+
+.btm {
+    margin: 1vh 0vh;
+}
+
+.btm hr {
+    display: nonr;
+}
+
+.cnt {
+    display: none;
+}
+
+.cnt0hr1 {
+    display: none;
+}
+
+.cnt0 h3 {
+    font-size: 15px;
+}
+
+.list {
+    padding-top: 5px;
+}
+
+.list a {
+    font-size: 12px;
+}
+
+.end {
+    font-size: 7px;
+    margin: 1vh 0vh;
+}
+
+.ehr {
+    margin: 1vh 5vh;
+}
+
+.navs ul {
+    width: auto;
+}
+
+.navs li {
+    margin: 0px 14px;
+}
+
+.end p, .end a{
+    font-size: 7px;
+}

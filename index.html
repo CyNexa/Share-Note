@@ -4,26 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to our notes sharing platform! Get ready to boost your study game with our user-friendly and collaborative space. Share your class notes, study guides, and exam tips with fellow students, and access a treasure trove of knowledge contributed by peers. Whether you're cramming for finals or preparing for your next big presentation, our platform has got your back. Join our community today and unlock a world of learning possibilities!">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="style-m.css">
     <title>Share Note</title>
 </head>
 
 <body>
-    <header>
-        <div>
-            <h3>shareNote</h3>
-            <p>One Step Solution For All Notes</p>
+    <header class="header">
+        <div class="navbar">
+            <h1>shareNote</h1>
+            <nav class="navs">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">NOTES</a></li>
+                    <li><a href="#">NOTICES</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a target="_blank" href="#" class="btn">Donate</a></li>
+                </ul>
+            </nav>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </nav>
-    </header>
 
+        <div class="dropdown_menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">NOTES</a></li>
+            <li><a href="#">NOTICES</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </div>
+    </header>
+    <script src="JS/nav.js"></script>
 </body>
 
 </html>
