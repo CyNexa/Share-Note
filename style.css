@@ -10,27 +10,23 @@
     outline: none;
 }
 body {
-    background: rgb(36, 158, 184);
-    background: -moz-linear-gradient(114deg, rgba(36, 158, 184, 1) 0%, rgba(235, 201, 181, 1) 100%);
-    background: -webkit-linear-gradient(114deg, rgba(36, 158, 184, 1) 0%, rgba(235, 201, 181, 1) 100%);
-    background: linear-gradient(114deg, rgba(36, 158, 184, 1) 0%, rgba(235, 201, 181, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#249eb8", endColorstr="#ebc9b5", GradientType=1);
+    background-color: #1e1d29;
     background-repeat: no-repeat;
 }
 
 /* Invisble Scroll Bar */
 body::-webkit-scrollbar {
-    width: 7px;
+    width: 0px;
 }
 body::-webkit-scrollbar-track {
     border-radius: 5px;
-    background: #ffecb0;
+    background: #1e1d29;
 }
 body::-webkit-scrollbar-thumb {
-    background: #ebcf76;
+    background: #04ff00;
 }
 body::-webkit-scrollbar-thumb:hover {
-    background: #eec84c;
+    background: #b700ff;
 }
 
 /* Top Header Part With Navbar */
@@ -38,9 +34,9 @@ body::-webkit-scrollbar-thumb:hover {
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     padding: 0px 25px;
-    height: 50px;
+    height: 8vh;
     font-family: 'Asap Condensed', sans-serif;
     position: -webkit-sticky;
     position: sticky;
@@ -50,10 +46,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /* Navigtion Bar */
-.navbar h1 {
-    font-size: 21px;
-    font-family: 'Quicksand', sans-serif;
-}
 .navs ul {
     width: auto;
     display: flex;
@@ -62,7 +54,7 @@ body::-webkit-scrollbar-thumb:hover {
     align-items: center;
 }
 .navs li {
-    font-size: 15px;
+    font-size: 20px;
     margin: 0px 15px;
 }
 .navs a {
@@ -71,13 +63,13 @@ body::-webkit-scrollbar-thumb:hover {
     text-decoration: none;
 }
 .navs a:hover {
-    color: #fcc81f;
+    color: #04ff00;
 }
 .navs a:after {
     content: "";
     position: absolute;
-    background-color: #fcc81f;
-    height: 3px;
+    background-color: #04ff00;
+    height: 2px;
     width: 0%;
     left: 0;
     bottom: -5px;
@@ -136,18 +128,39 @@ body::-webkit-scrollbar-thumb:hover {
     text-decoration: none;
 }
 
-/* Donate */
-.btn {
-    border-radius: 10px;
-    border: 1px solid #ffffff;
-    display: inline-block;
-    cursor: pointer;
+/* Section 1 */
+.sec1 {
     color: #ffffff;
-    font-family: 'Asap Condensed', sans-serif;
-    font-size: 15px;
-    padding: 6px 15px;
-    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding: 0px 0px 0px 25px;
 }
-.btn:hover {
-    background-color: #ffffff2a;
+.sec1_div1 h1{
+    font-size: 5em;
+    font-family: "ubuntu", sans-serif;
+}
+.sec1_div1 p{
+    font-size: 2em;
+    font-family: "quicksand", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+.sec1_div2 p{
+    font-size: 3.7em;
+    color: rgba(255, 255, 255, 0.2);
+    font-family: "quicksand", sans-serif;
+    text-align: right;
+}
+.sec1_hr {
+    background-color: #04ff00;
+    height: 2px;
+    border: 0px;
+    box-shadow: 0px 15px 30px 3px #04ff00;
+}
+.sec2 {
+    height: 40vh;
+    border: 3px solid rgb(0, 255, 0);
+    margin: 0px 25px;
+    border-radius: 20px;
 }
